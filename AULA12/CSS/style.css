@@ -1,0 +1,29 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border: 5px solid blue;
+    padding: 209px;
+
+    /* dashed é um pontilhado envolta */
+    /* isso serve para diminuir ou almentar  padding */
+}
+
+
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(200, 1, 190)
+    
+}
+.box3{
+    
+    display: block;
+    border: 5xp solid rgb(68, 0, 255)
+    padding-right: 10 px; 
+    padding-left: 20px;
+
+
+}
+

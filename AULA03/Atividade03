@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt=br"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <meta name="author" content="Enzo Bordin">
+    <title>Aula 03</title>
+
+</head>
+<body>
+
+<a href="https://www.youtube.com/watch?v=J_LqtdcowVc&pp=ugMGCgJwdBABugUEEgJwdMoFCXBybyBjbHVic9IHCQmjCwGHKiGM79gHAQ%3D%3D" target="_blank">
+    <img src="./files/images (5).jpg" alt="Vídeo">
+</a><br>
+
+<a href="./sobre.html">Ir para página sobre</a><br>
+
+<a href="./contato.html">Ir para página contato</a>
+
+<h2>Acesse nossa documentação</h2>
+<a href="./files/manual.pdf">baixar PDF</a>
+<a href="./files/manual.zip">baixar ZIP</a>
+
+</body>
+</html>
