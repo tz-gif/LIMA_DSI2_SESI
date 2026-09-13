@@ -1,0 +1,122 @@
+/* ==================================== 
+CORES DO SITE
+======================================*/
+:root {
+    --cor-texto-escuro: #251a14;
+    --cor-creme: #f4ecdc;
+    --cor-fundo-pagina: #fbf6ec;
+    --cor-terracota: #b54a2c;
+    --cor-terracota-escura: #8f3a22;
+    --cor-carvao: #211714;
+    --cor-linha: rgba(37,26,20,0.12);
+}
+
+/* ==================================== 
+RESET BÁSICO
+======================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* quando clicamos em um link tipo #pecas, a página rola suavemente até lá, em vez de "pular" */
+}
+
+body {
+    font-family: "Work Sans", Arial, sans-serif;
+    color: var(--cor-texto-escuro);
+    background: var(--cor-fundo-pagina);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+p {
+    color: #4a3c32;
+    max-width: 46ch; /* Limita a largura do paragrafo a mais ou menos 46 caracteres por linha, para não ficar uma linha grande. */
+}
+
+a {
+    color: inherit; /* faz o link usar a cor de texto ao redor, em vez do azul padrão do computador */
+    text-decoration: none;
+}
+
+/* 
+========== BOTÕES ==================
+*/
+.botao {
+    display: inline-flex;  /* Vira um flexbox, mas continua "na linha" do texto, não ocupa a linha inteira */
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: transform 0.2s ease, background 0.2s ease;
+    /* Deixa a mudança de cor e o subir no hover suave, em vez de instantâneo */
+}
+
+.botao-preenchido {
+    background: var(--cor-terracota);
+    color: var(--cor-fundo-pagina);
+}
+
+.botao-preenchido:hover {
+    background: var(--cor-terracota-escura);
+    transform: translateY(-2px);    /* Sobe o botão 2px, dando a sensação de levantar */
+}
+
+.botao-contorno {
+    border: 1.5px solid var(--cor-texto-escuro);
+    color: var(--cor-texto-escuro);
+}
+
+.botao-claro {
+    background: var(--cor-fundo-pagina);
+    color: var(--cor-carvao);
+}
+
+/* ==================================== 
+------------- MENU DO TOPO ----------
+======================================*/
+
+.topo {
+    position: sticky;
+    top: 0;
+    background: var(--cor-fundo-pagina);
+    border-bottom: 1px solid var(--cor-linha);
+}
+
+.topo-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 0 auto;
+    padding: 20px 40px;
+}
+
+.marca {
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    gap: 36px;
+}
+
+.botao-menu {
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--cor-texto-escuro);
+    color: var(--cor-fundo-pagina);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
